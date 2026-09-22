@@ -1,16 +1,67 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/banner.svg" width="100%" alt="woochichichi — Ideas into useful tools. AI, document tools, and Android." />
+</p>
 
-<!--
-**woochichichi/woochichichi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 안녕하세요, 우치입니다 👋
 
-Here are some ideas to get you started:
+**일상과 업무의 불편함을, 직접 만든 도구로 해결합니다.**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+AI 챗봇부터 문서 작업 도구, Android 앱까지.<br />
+필요한 것을 만들고, 써보며 개선하는 프로젝트를 이곳에 모읍니다.
+
+<p>
+  <a href="#-대표-프로젝트">대표 프로젝트</a> &nbsp;·&nbsp;
+  <a href="#-사용하는-기술">사용하는 기술</a> &nbsp;·&nbsp;
+  <a href="https://github.com/woochichichi?tab=repositories">모든 저장소 ↗</a>
+</p>
+
+### 🧩 대표 프로젝트
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 / AI 상담 코치</h3>
+      <p>업무 문서를 검색해 답변하고, 상담 훈련과 피드백을 제공하는 AI 챗봇 PoC.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>RAG</code> <code>React</code></p>
+      <a href="https://github.com/woochichichi/2026_HICT_ChatBot"><b>프로젝트 보기 →</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 / 로컬 문서 뷰어</h3>
+      <p>파일 업로드 없이 브라우저에서 Word·Excel·텍스트 문서를 여는 오프라인 뷰어.</p>
+      <p><code>React</code> <code>Vite</code> <code>Electron</code></p>
+      <a href="https://github.com/woochichichi/viewer"><b>프로젝트 보기 →</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03 / Excel Diff &amp; Merge</h3>
+      <p>여러 버전의 Excel 파일을 셀 단위로 비교하고, 필요한 변경 사항을 선택해 병합하는 도구.</p>
+      <p><code>C#</code> <code>WinForms</code> <code>Excel COM</code></p>
+      <a href="https://github.com/woochichichi/excel_diff"><b>프로젝트 보기 →</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>04 / SMS → Telegram</h3>
+      <p>수신 문자를 발신자 필터에 따라 텔레그램 봇으로 전달하는 개인용 Android 앱.</p>
+      <p><code>Kotlin</code> <code>Android</code> <code>Telegram Bot</code></p>
+      <a href="https://github.com/woochichichi/forward_sms_to_tele"><b>프로젝트 보기 →</b></a>
+    </td>
+  </tr>
+</table>
+
+**또 다른 실험 · [KRX Backtester](https://github.com/woochichichi/backtest_program)**<br />
+국내 주식 일봉 데이터로 전략을 실행하고, 결과를 차트와 표로 살펴보는 Python 기반 백테스팅 웹 플랫폼.
+
+### 🛠 사용하는 기술
+
+| 분야 | 프로젝트에서 사용하는 기술 |
+| :--- | :--- |
+| AI & Backend | Python · FastAPI · ChromaDB · RAG |
+| Web & Desktop | JavaScript · React · Vite · Electron · C# · WinForms |
+| Mobile | Kotlin · Android |
+
+---
+
+<p align="center">
+  <sub>작은 불편함에서 시작해, 쓸모 있는 도구로.</sub><br />
+  <sub><a href="https://github.com/woochichichi?tab=repositories">Explore the projects ↗</a></sub>
+</p>
