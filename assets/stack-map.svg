@@ -1,119 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" fill="none" role="img" aria-labelledby="title desc">
-<title id="title">Graph guide and technology stack map</title>
-<desc id="desc">Project implementation areas and functional scope inform a qualitative summary of relative experience. Six connected technology groups show AI and RAG, backend, web, desktop, mobile, and automation. This is not a proficiency score.</desc>
-<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0 0L6 3.5L0 7" fill="none" stroke="#6A9A88" stroke-width="1.2"/></marker></defs>
-<rect x="0" y="0" width="1200" height="790" rx="20" fill="#101C24" />
-<path d="M48 49H68" stroke="#B8F2D3" stroke-width="3"/>
-<text x="80" y="55" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#D5E2E7" letter-spacing="3">HOW TO READ</text>
-<text x="1152" y="55" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#A6BAC5" text-anchor="end">그래프 기준</text>
-<rect x="48" y="90" width="336" height="116" rx="12" fill="#172A32" stroke="#30484D"/>
-<text x="68" y="119" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="16" fill="#EAC59C" font-weight="700" letter-spacing="2">01</text>
-<text x="68" y="151" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="22" fill="#F3F5ED" font-weight="700" letter-spacing="1">PROJECT WORK</text>
-<text x="68" y="184" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="20" fill="#A6BAC5" >구현 분야 · 기능 범위</text>
-<path d="M394 148H418" stroke="#6A9A88" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="432" y="90" width="336" height="116" rx="12" fill="#172A32" stroke="#30484D"/>
-<text x="452" y="119" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="16" fill="#B8F2D3" font-weight="700" letter-spacing="2">02</text>
-<text x="452" y="151" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="22" fill="#F3F5ED" font-weight="700" letter-spacing="1">RELATIVE FOCUS</text>
-<text x="452" y="184" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="20" fill="#A6BAC5" >분야별 경험의 무게중심</text>
-<path d="M778 148H802" stroke="#6A9A88" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="816" y="90" width="336" height="116" rx="12" fill="#172A32" stroke="#30484D"/>
-<text x="836" y="119" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="16" fill="#91CEC9" font-weight="700" letter-spacing="2">03</text>
-<text x="836" y="151" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="22" fill="#F3F5ED" font-weight="700" letter-spacing="1">EXPERIENCE RADAR</text>
-<text x="836" y="184" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="20" fill="#A6BAC5" >육각형으로 보는 경험 분포</text>
-<text x="600" y="244" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="20" fill="#A6BAC5" text-anchor="middle">프로젝트 경험을 정성적으로 요약한 그래프입니다. 숙련도 시험 점수는 아닙니다.</text>
-<path d="M48 275H1152" stroke="#2F454C"/>
-<path d="M48 317H68" stroke="#B8F2D3" stroke-width="3"/>
-<text x="80" y="323" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#D5E2E7" letter-spacing="3">TECH STACK</text>
-<text x="1152" y="323" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#A6BAC5" text-anchor="end">분야에서 도구로, 한눈에 연결</text>
-<rect x="48" y="353" width="348" height="164" rx="12" fill="#14262E" stroke="#30484D"/>
-<rect x="120" y="369" width="204" height="37" rx="8" fill="#1D333B" />
-<text x="222" y="394" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="21" fill="#C4B9EE" text-anchor="middle" font-weight="700" letter-spacing="1.5">AI / RAG</text>
-<path d="M222 406V435" stroke="#C4B9EE" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M116 435H328" stroke="#C4B9EE" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M116 435V458" stroke="#C4B9EE" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="116" cy="435" r="2.5" fill="#C4B9EE"/>
-<rect x="67" y="458" width="98" height="39" rx="8" fill="#1A3038" stroke="#C4B9EE" stroke-opacity=".3"/>
-<text x="116" y="484" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">Python</text>
-<path d="M222 435V458" stroke="#C4B9EE" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="222" cy="435" r="2.5" fill="#C4B9EE"/>
-<rect x="173" y="458" width="98" height="39" rx="8" fill="#1A3038" stroke="#C4B9EE" stroke-opacity=".3"/>
-<text x="222" y="484" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">ChromaDB</text>
-<path d="M328 435V458" stroke="#C4B9EE" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="328" cy="435" r="2.5" fill="#C4B9EE"/>
-<rect x="279" y="458" width="98" height="39" rx="8" fill="#1A3038" stroke="#C4B9EE" stroke-opacity=".3"/>
-<text x="328" y="484" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">RAG</text>
-<rect x="426" y="353" width="348" height="164" rx="12" fill="#14262E" stroke="#30484D"/>
-<rect x="498" y="369" width="204" height="37" rx="8" fill="#1D333B" />
-<text x="600" y="394" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="21" fill="#91CEC9" text-anchor="middle" font-weight="700" letter-spacing="1.5">BACKEND</text>
-<path d="M600 406V435" stroke="#91CEC9" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M519 435H681" stroke="#91CEC9" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M519 435V458" stroke="#91CEC9" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="519" cy="435" r="2.5" fill="#91CEC9"/>
-<rect x="444" y="458" width="150" height="39" rx="8" fill="#1A3038" stroke="#91CEC9" stroke-opacity=".3"/>
-<text x="519" y="484" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">Python</text>
-<path d="M681 435V458" stroke="#91CEC9" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="681" cy="435" r="2.5" fill="#91CEC9"/>
-<rect x="606" y="458" width="150" height="39" rx="8" fill="#1A3038" stroke="#91CEC9" stroke-opacity=".3"/>
-<text x="681" y="484" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">FastAPI</text>
-<rect x="804" y="353" width="348" height="164" rx="12" fill="#14262E" stroke="#30484D"/>
-<rect x="876" y="369" width="204" height="37" rx="8" fill="#1D333B" />
-<text x="978" y="394" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="21" fill="#AED4F0" text-anchor="middle" font-weight="700" letter-spacing="1.5">WEB</text>
-<path d="M978 406V435" stroke="#AED4F0" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M872 435H1084" stroke="#AED4F0" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M872 435V458" stroke="#AED4F0" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="872" cy="435" r="2.5" fill="#AED4F0"/>
-<rect x="823" y="458" width="98" height="39" rx="8" fill="#1A3038" stroke="#AED4F0" stroke-opacity=".3"/>
-<text x="872" y="484" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="17" fill="#E7EFED" text-anchor="middle">JavaScript</text>
-<path d="M978 435V458" stroke="#AED4F0" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="978" cy="435" r="2.5" fill="#AED4F0"/>
-<rect x="929" y="458" width="98" height="39" rx="8" fill="#1A3038" stroke="#AED4F0" stroke-opacity=".3"/>
-<text x="978" y="484" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">React</text>
-<path d="M1084 435V458" stroke="#AED4F0" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="1084" cy="435" r="2.5" fill="#AED4F0"/>
-<rect x="1035" y="458" width="98" height="39" rx="8" fill="#1A3038" stroke="#AED4F0" stroke-opacity=".3"/>
-<text x="1084" y="484" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">Vite</text>
-<rect x="48" y="538" width="348" height="164" rx="12" fill="#14262E" stroke="#30484D"/>
-<rect x="120" y="554" width="204" height="37" rx="8" fill="#1D333B" />
-<text x="222" y="579" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="21" fill="#B8F2D3" text-anchor="middle" font-weight="700" letter-spacing="1.5">DESKTOP</text>
-<path d="M222 591V620" stroke="#B8F2D3" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M116 620H328" stroke="#B8F2D3" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M116 620V643" stroke="#B8F2D3" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="116" cy="620" r="2.5" fill="#B8F2D3"/>
-<rect x="67" y="643" width="98" height="39" rx="8" fill="#1A3038" stroke="#B8F2D3" stroke-opacity=".3"/>
-<text x="116" y="669" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">C#</text>
-<path d="M222 620V643" stroke="#B8F2D3" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="222" cy="620" r="2.5" fill="#B8F2D3"/>
-<rect x="173" y="643" width="98" height="39" rx="8" fill="#1A3038" stroke="#B8F2D3" stroke-opacity=".3"/>
-<text x="222" y="669" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">WinForms</text>
-<path d="M328 620V643" stroke="#B8F2D3" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="328" cy="620" r="2.5" fill="#B8F2D3"/>
-<rect x="279" y="643" width="98" height="39" rx="8" fill="#1A3038" stroke="#B8F2D3" stroke-opacity=".3"/>
-<text x="328" y="669" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">Electron</text>
-<rect x="426" y="538" width="348" height="164" rx="12" fill="#14262E" stroke="#30484D"/>
-<rect x="498" y="554" width="204" height="37" rx="8" fill="#1D333B" />
-<text x="600" y="579" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="21" fill="#D6DFA1" text-anchor="middle" font-weight="700" letter-spacing="1.5">MOBILE</text>
-<path d="M600 591V620" stroke="#D6DFA1" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M519 620H681" stroke="#D6DFA1" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M519 620V643" stroke="#D6DFA1" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="519" cy="620" r="2.5" fill="#D6DFA1"/>
-<rect x="444" y="643" width="150" height="39" rx="8" fill="#1A3038" stroke="#D6DFA1" stroke-opacity=".3"/>
-<text x="519" y="669" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">Kotlin</text>
-<path d="M681 620V643" stroke="#D6DFA1" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="681" cy="620" r="2.5" fill="#D6DFA1"/>
-<rect x="606" y="643" width="150" height="39" rx="8" fill="#1A3038" stroke="#D6DFA1" stroke-opacity=".3"/>
-<text x="681" y="669" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">Android</text>
-<rect x="804" y="538" width="348" height="164" rx="12" fill="#14262E" stroke="#30484D"/>
-<rect x="876" y="554" width="204" height="37" rx="8" fill="#1D333B" />
-<text x="978" y="579" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="21" fill="#EAC59C" text-anchor="middle" font-weight="700" letter-spacing="1.5">AUTOMATION</text>
-<path d="M978 591V620" stroke="#EAC59C" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M897 620H1059" stroke="#EAC59C" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M897 620V643" stroke="#EAC59C" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="897" cy="620" r="2.5" fill="#EAC59C"/>
-<rect x="822" y="643" width="150" height="39" rx="8" fill="#1A3038" stroke="#EAC59C" stroke-opacity=".3"/>
-<text x="897" y="669" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#E7EFED" text-anchor="middle">Python</text>
-<path d="M1059 620V643" stroke="#EAC59C" stroke-opacity=".5" stroke-width="1.5"/>
-<circle cx="1059" cy="620" r="2.5" fill="#EAC59C"/>
-<rect x="984" y="643" width="150" height="39" rx="8" fill="#1A3038" stroke="#EAC59C" stroke-opacity=".3"/>
-<text x="1059" y="669" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="17" fill="#E7EFED" text-anchor="middle">Telegram Bot</text>
-<text x="600" y="753" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-size="18" fill="#8EA7B4" text-anchor="middle">실제로 사용한 기술을 분야별로 연결했습니다. 선은 분류 관계를 나타냅니다.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="622" viewBox="0 0 1200 622" role="img" aria-labelledby="title desc"><title id="title">The toolbox.</title><desc id="desc">AI: Python, ChromaDB, RAG. 데스크톱: C#, WinForms, Electron. 백엔드: Python, FastAPI. 모바일: Kotlin, Android. 웹: JavaScript, React, Vite. 자동화: Python, Telegram Bot.</desc><rect x="0" y="0" width="1200" height="622" fill="#191918"/><g transform="translate(48 48) scale(1.3010336806598166) translate(-0.5859375 -20.166016)"><path fill="#F2F0E9" fill-rule="evenodd" d="M45.508 21.826L45.508 37.646L33.301 37.646L33.301 100.879L12.744 100.879L12.744 37.646L0.586 37.646L0.586 21.826ZM97.461 21.826L97.461 100.879L76.904 100.879L76.904 67.676L70.752 67.676L70.752 100.879L50.195 100.879L50.195 21.826L70.752 21.826L70.752 50.098L76.904 50.098L76.904 21.826ZM105.713 21.826L139.99 21.826L139.99 37.646L126.27 37.646L126.27 52.637L139.111 52.637L139.111 67.676L126.27 67.676L126.27 85.059L141.357 85.059L141.357 100.879L105.713 100.879ZM206.299 21.826L206.299 37.646L194.092 37.646L194.092 100.879L173.535 100.879L173.535 37.646L161.377 37.646L161.377 21.826ZM257.959 68.115C257.959 76.058 257.772 81.681 257.398 84.985C257.023 88.289 255.851 91.309 253.882 94.043C251.912 96.777 249.251 98.877 245.898 100.342C242.546 101.807 238.639 102.539 234.18 102.539C229.948 102.539 226.147 101.847 222.778 100.464C219.409 99.08 216.699 97.005 214.648 94.238C212.598 91.471 211.377 88.46 210.986 85.205C210.596 81.95 210.4 76.253 210.4 68.115L210.4 54.59C210.4 46.647 210.588 41.024 210.962 37.72C211.336 34.416 212.508 31.396 214.478 28.662C216.447 25.928 219.108 23.828 222.461 22.363C225.814 20.898 229.72 20.166 234.18 20.166C238.412 20.166 242.212 20.858 245.581 22.241C248.95 23.625 251.66 25.7 253.711 28.467C255.762 31.234 256.982 34.245 257.373 37.5C257.764 40.755 257.959 46.452 257.959 54.59ZM237.402 42.139C237.402 38.46 237.199 36.108 236.792 35.083C236.385 34.058 235.547 33.545 234.277 33.545C233.203 33.545 232.381 33.96 231.812 34.79C231.242 35.62 230.957 38.07 230.957 42.139L230.957 79.053C230.957 83.643 231.144 86.475 231.519 87.549C231.893 88.623 232.764 89.16 234.131 89.16C235.531 89.16 236.426 88.542 236.816 87.305C237.207 86.068 237.402 83.122 237.402 78.467ZM312.598 68.115C312.598 76.058 312.411 81.681 312.036 84.985C311.662 88.289 310.49 91.309 308.521 94.043C306.551 96.777 303.89 98.877 300.537 100.342C297.184 101.807 293.278 102.539 288.818 102.539C284.587 102.539 280.786 101.847 277.417 100.464C274.048 99.08 271.338 97.005 269.287 94.238C267.236 91.471 266.016 88.46 265.625 85.205C265.234 81.95 265.039 76.253 265.039 68.115L265.039 54.59C265.039 46.647 265.226 41.024 265.601 37.72C265.975 34.416 267.147 31.396 269.116 28.662C271.086 25.928 273.747 23.828 277.1 22.363C280.453 20.898 284.359 20.166 288.818 20.166C293.05 20.166 296.851 20.858 300.22 22.241C303.589 23.625 306.299 25.7 308.35 28.467C310.4 31.234 311.621 34.245 312.012 37.5C312.402 40.755 312.598 46.452 312.598 54.59ZM292.041 42.139C292.041 38.46 291.838 36.108 291.431 35.083C291.024 34.058 290.186 33.545 288.916 33.545C287.842 33.545 287.02 33.96 286.45 34.79C285.881 35.62 285.596 38.07 285.596 42.139L285.596 79.053C285.596 83.643 285.783 86.475 286.157 87.549C286.532 88.623 287.402 89.16 288.77 89.16C290.169 89.16 291.065 88.542 291.455 87.305C291.846 86.068 292.041 83.122 292.041 78.467ZM340.82 21.826L340.82 85.059L353.32 85.059L353.32 100.879L320.264 100.879L320.264 21.826ZM358.301 21.826L378.809 21.826C385.286 21.826 390.194 22.33 393.53 23.339C396.867 24.347 399.561 26.388 401.611 29.462C403.662 32.537 404.688 37.489 404.688 44.321C404.688 48.94 403.963 52.161 402.515 53.982C401.066 55.804 398.21 57.203 393.945 58.179C398.698 59.253 401.921 61.037 403.613 63.528C405.306 66.02 406.152 69.839 406.152 74.986L406.152 82.314C406.152 87.655 405.542 91.613 404.321 94.186C403.101 96.759 401.156 98.518 398.486 99.462C395.817 100.407 390.348 100.879 382.08 100.879L358.301 100.879ZM378.857 35.352L378.857 52.93C379.736 52.897 380.42 52.881 380.908 52.881C382.926 52.881 384.212 52.384 384.766 51.392C385.319 50.399 385.596 47.559 385.596 42.871C385.596 40.397 385.368 38.664 384.912 37.671C384.456 36.678 383.862 36.051 383.13 35.791C382.398 35.531 380.973 35.384 378.857 35.352ZM378.857 65.234L378.857 87.354C381.755 87.256 383.602 86.8 384.399 85.986C385.197 85.173 385.596 83.171 385.596 79.98L385.596 72.607C385.596 69.222 385.238 67.171 384.522 66.455C383.805 65.739 381.917 65.332 378.857 65.234ZM460.498 68.115C460.498 76.058 460.311 81.681 459.937 84.985C459.562 88.289 458.39 91.309 456.421 94.043C454.452 96.777 451.79 98.877 448.438 100.342C445.085 101.807 441.178 102.539 436.719 102.539C432.487 102.539 428.687 101.847 425.317 100.464C421.948 99.08 419.238 97.005 417.188 94.238C415.137 91.471 413.916 88.46 413.525 85.205C413.135 81.95 412.94 76.253 412.94 68.115L412.94 54.59C412.94 46.647 413.127 41.024 413.501 37.72C413.875 34.416 415.047 31.396 417.017 28.662C418.986 25.928 421.647 23.828 425 22.363C428.353 20.898 432.259 20.166 436.719 20.166C440.951 20.166 444.751 20.858 448.12 22.241C451.489 23.625 454.199 25.7 456.25 28.467C458.301 31.234 459.522 34.245 459.912 37.5C460.303 40.755 460.498 46.452 460.498 54.59ZM439.941 42.139C439.941 38.46 439.738 36.108 439.331 35.083C438.924 34.058 438.086 33.545 436.816 33.545C435.742 33.545 434.92 33.96 434.351 34.79C433.781 35.62 433.496 38.07 433.496 42.139L433.496 79.053C433.496 83.643 433.683 86.475 434.058 87.549C434.432 88.623 435.303 89.16 436.67 89.16C438.07 89.16 438.965 88.542 439.356 87.305C439.746 86.068 439.941 83.122 439.941 78.467ZM509.839 21.826L502.612 56.787L513.501 100.879L494.458 100.879C492.182 92.997 490.099 83.394 488.208 72.07C487.691 77.086 486.969 82.393 486.041 87.989L484.106 100.879L464.087 100.879L471.558 56.787L464.087 21.826L483.96 21.826C484.322 24.003 485.036 27.631 486.102 32.711C486.964 36.582 487.666 40.147 488.208 43.408L492.603 21.826ZM532.471 84.766L532.471 100.879L517.578 100.879L517.578 84.766Z"/></g>
+<text x="1152" y="68" fill="#F34B2C" font-size="19" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" text-anchor="end" letter-spacing="2">TOOLS FOR</text>
+<text x="1152" y="96" fill="#F34B2C" font-size="19" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" text-anchor="end" letter-spacing="2">USEFUL THINGS.</text>
+<path d="M48 190L1152 190" stroke="#5E5C55" stroke-width="1" />
+<text x="48" y="235" fill="#F34B2C" font-size="18" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" letter-spacing="1">AI / RAG</text>
+<path d="M48 252L192 252" stroke="#6C6A60" stroke-width="1" />
+<path d="M185 247L192 252L185 257" fill="none" stroke="#6C6A60"/>
+<text x="226" y="238" fill="#F2F0E9" font-size="27" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >Python · ChromaDB</text>
+<text x="226" y="273" fill="#F2F0E9" font-size="27" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >RAG</text>
+<path d="M48 305L564 305" stroke="#3C3B35" stroke-width="1" />
+<text x="636" y="235" fill="#F34B2C" font-size="18" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" letter-spacing="1">DESKTOP</text>
+<path d="M636 252L780 252" stroke="#6C6A60" stroke-width="1" />
+<path d="M773 247L780 252L773 257" fill="none" stroke="#6C6A60"/>
+<text x="814" y="238" fill="#F2F0E9" font-size="27" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >C# · WinForms</text>
+<text x="814" y="273" fill="#F2F0E9" font-size="27" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >Electron</text>
+<path d="M636 305L1152 305" stroke="#3C3B35" stroke-width="1" />
+<text x="48" y="348" fill="#F34B2C" font-size="18" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" letter-spacing="1">BACKEND</text>
+<path d="M48 365L192 365" stroke="#6C6A60" stroke-width="1" />
+<path d="M185 360L192 365L185 370" fill="none" stroke="#6C6A60"/>
+<text x="226" y="351" fill="#F2F0E9" font-size="27" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >Python · FastAPI</text>
+<path d="M48 418L564 418" stroke="#3C3B35" stroke-width="1" />
+<text x="636" y="348" fill="#F34B2C" font-size="18" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" letter-spacing="1">MOBILE</text>
+<path d="M636 365L780 365" stroke="#6C6A60" stroke-width="1" />
+<path d="M773 360L780 365L773 370" fill="none" stroke="#6C6A60"/>
+<text x="814" y="351" fill="#F2F0E9" font-size="27" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >Kotlin · Android</text>
+<path d="M636 418L1152 418" stroke="#3C3B35" stroke-width="1" />
+<text x="48" y="461" fill="#F34B2C" font-size="18" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" letter-spacing="1">WEB</text>
+<path d="M48 478L192 478" stroke="#6C6A60" stroke-width="1" />
+<path d="M185 473L192 478L185 483" fill="none" stroke="#6C6A60"/>
+<text x="226" y="464" fill="#F2F0E9" font-size="27" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >JavaScript · React</text>
+<text x="226" y="499" fill="#F2F0E9" font-size="27" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >Vite</text>
+<text x="636" y="461" fill="#F34B2C" font-size="18" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" letter-spacing="1">AUTOMATION</text>
+<path d="M636 478L780 478" stroke="#6C6A60" stroke-width="1" />
+<path d="M773 473L780 478L773 483" fill="none" stroke="#6C6A60"/>
+<text x="814" y="464" fill="#F2F0E9" font-size="27" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >Python</text>
+<text x="814" y="499" fill="#F2F0E9" font-size="27" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >Telegram Bot</text>
+<path d="M48 553L1152 553" stroke="#5E5C55" stroke-width="1" />
+<text x="48" y="593" fill="#ABA99F" font-size="19" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >분야와 실제 사용 기술을 연결했습니다.</text>
+<text x="1152" y="593" fill="#F2F0E9" font-size="17" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" text-anchor="end" letter-spacing="1">WOOCHI. / KEEP MAKING.</text></svg>

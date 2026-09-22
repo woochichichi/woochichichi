@@ -1,69 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Builder DNA — project experience radar</title>
-  <desc id="desc">An asymmetric radar chart with the greatest emphasis on automation and desktop tools, followed by web, mobile, applied AI, and backend. A qualitative interpretation of project experience, not measured proficiency scores.</desc>
-  <defs>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#30434C"/>
-    </pattern>
-    <linearGradient id="area" x1="600" y1="177" x2="600" y2="493" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#B8F2D3" stop-opacity=".55"/>
-      <stop offset="1" stop-color="#64CDBD" stop-opacity=".10"/>
-    </linearGradient>
-    <linearGradient id="edge" x1="600" y1="177" x2="509.9" y2="493" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#EAC59C"/>
-      <stop offset=".35" stop-color="#B8F2D3"/>
-      <stop offset="1" stop-color="#72D6C5"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="760" rx="20" fill="#101C24"/>
-  <rect x="374" y="149" width="452" height="439" fill="url(#dots)"/>
-
-  <path d="M48 49H68" stroke="#B8F2D3" stroke-width="3"/>
-  <text x="80" y="55" fill="#D5E2E7" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="3">BUILDER DNA</text>
-  <text x="1152" y="55" text-anchor="end" fill="#8EA7B4" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2">PROJECT EXPERIENCE</text>
-
-  <!-- Grid spacing is a visual reference. The profile is a qualitative summary. -->
-  <g stroke="#38514F" stroke-width="1.3">
-    <path d="M600 325L634.64 345V385L600 405L565.36 385V345Z"/>
-    <path d="M600 285L669.28 325V405L600 445L530.72 405V325Z"/>
-    <path d="M600 245L703.92 305V425L600 485L496.08 425V305Z"/>
-    <path d="M600 205L738.56 285V445L600 525L461.44 445V285Z"/>
-  </g>
-  <path d="M600 165L773.2 265V465L600 565L426.8 465V265Z" stroke="#648578" stroke-width="1.8"/>
-  <path d="M600 165V565M426.8 265L773.2 465M426.8 465L773.2 265" stroke="#48645D" stroke-width="1.3" stroke-dasharray="4 7"/>
-
-  <!-- Only broad experience categories are published; no source project identifiers. -->
-  <path d="M600 177L748.95 279L735.1 443L600 493L509.93 417L527.25 323Z" fill="url(#area)"/>
-  <path d="M600 177L748.95 279L735.1 443L600 493L509.93 417L527.25 323Z" stroke="#B8F2D3" stroke-opacity=".07" stroke-width="16" stroke-linejoin="round"/>
-  <path d="M600 177L748.95 279L735.1 443L600 493L509.93 417L527.25 323Z" stroke="url(#edge)" stroke-width="3.5" stroke-linejoin="round"/>
-  <g fill="#101C24" stroke="#B8F2D3" stroke-width="3">
-    <circle cx="748.95" cy="279" r="6"/>
-    <circle cx="735.1" cy="443" r="6"/>
-    <circle cx="600" cy="493" r="6"/>
-    <circle cx="509.93" cy="417" r="6"/>
-    <circle cx="527.25" cy="323" r="6"/>
-  </g>
-  <circle cx="600" cy="177" r="17" fill="#EAC59C" fill-opacity=".10"/>
-  <circle cx="600" cy="177" r="8" fill="#EAC59C" stroke="#101C24" stroke-width="3"/>
-  <circle cx="600" cy="365" r="3" fill="#B8F2D3" fill-opacity=".65"/>
-
-  <path d="M426.8 265H405M426.8 465H405M773.2 265H795M773.2 465H795" stroke="#648578" stroke-width="1.8"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="600" y="108" text-anchor="middle" fill="#EAC59C" font-size="25" font-weight="700" letter-spacing="2">AUTOMATION</text>
-    <text x="600" y="138" text-anchor="middle" fill="#A6BAC5" font-size="20">Make repetitive work disappear</text>
-    <text x="818" y="253" fill="#B8F2D3" font-size="25" font-weight="700" letter-spacing="2">DESKTOP</text>
-    <text x="818" y="284" fill="#A6BAC5" font-size="20">Windows utilities</text>
-    <text x="818" y="453" fill="#F3F5ED" font-size="25" font-weight="700" letter-spacing="2">WEB</text>
-    <text x="818" y="484" fill="#A6BAC5" font-size="20">Interfaces &amp; tools</text>
-    <text x="600" y="611" text-anchor="middle" fill="#F3F5ED" font-size="25" font-weight="700" letter-spacing="2">MOBILE</text>
-    <text x="600" y="642" text-anchor="middle" fill="#A6BAC5" font-size="20">Android apps</text>
-    <text x="382" y="453" text-anchor="end" fill="#F3F5ED" font-size="25" font-weight="700" letter-spacing="2">AI / RAG</text>
-    <text x="382" y="484" text-anchor="end" fill="#A6BAC5" font-size="20">Applied AI</text>
-    <text x="382" y="253" text-anchor="end" fill="#F3F5ED" font-size="25" font-weight="700" letter-spacing="2">BACKEND</text>
-    <text x="382" y="284" text-anchor="end" fill="#A6BAC5" font-size="20">APIs &amp; data</text>
-  </g>
-  <path d="M48 684H1152" stroke="#2F454C"/>
-  <circle cx="59" cy="720" r="5" fill="#B8F2D3"/>
-  <text x="77" y="726" fill="#A6BAC5" font-family="Arial, Helvetica, sans-serif" font-size="18">Relative project focus</text>
-  <text x="1152" y="726" text-anchor="end" fill="#8EA7B4" font-family="Arial, Helvetica, sans-serif" font-size="18">Qualitative overview · not a proficiency score</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="622" viewBox="0 0 1200 622" role="img" aria-labelledby="title desc"><title id="title">Automate. Build. Repeat.</title><desc id="desc">자동화, 데스크톱, 웹, 모바일, AI, 백엔드 분야의 상대적 경험을 표현한 비대칭 레이더. 프로젝트 경험의 정성적 요약이며 숙련도 시험 점수가 아닙니다.</desc><rect x="0" y="0" width="1200" height="622" fill="#F2F0E9"/><text x="48" y="53" fill="#191918" font-size="18" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" letter-spacing="1.5">FIELD NOTES / 06 AREAS</text>
+<path d="M48 77L1152 77" stroke="#191918" stroke-width="1" />
+<g transform="translate(48 142) scale(0.9602737999947805) translate(0.56152344 -20.166016)"><path fill="#191918" fill-rule="evenodd" d="M39.636 21.826L51.392 100.879L30.383 100.879L29.281 86.67L21.927 86.67L20.691 100.879L-0.562 100.879L9.924 21.826ZM28.741 72.656C27.701 63.702 26.658 52.635 25.61 39.453C23.517 54.59 22.202 65.658 21.666 72.656ZM101.611 21.826L101.611 74.658C101.611 80.648 101.416 84.855 101.025 87.28C100.635 89.705 99.479 92.196 97.559 94.751C95.638 97.306 93.107 99.243 89.966 100.562C86.825 101.88 83.122 102.539 78.857 102.539C74.137 102.539 69.971 101.758 66.357 100.195C62.744 98.633 60.042 96.598 58.252 94.092C56.462 91.585 55.404 88.94 55.078 86.157C54.753 83.374 54.59 77.523 54.59 68.604L54.59 21.826L75.146 21.826L75.146 81.104C75.146 84.554 75.334 86.759 75.708 87.72C76.082 88.68 76.839 89.16 77.979 89.16C79.281 89.16 80.119 88.631 80.493 87.573C80.868 86.515 81.055 84.017 81.055 80.078L81.055 21.826ZM150.977 21.826L150.977 37.646L138.77 37.646L138.77 100.879L118.213 100.879L118.213 37.646L106.055 37.646L106.055 21.826ZM202.637 68.115C202.637 76.058 202.45 81.681 202.075 84.985C201.701 88.289 200.529 91.309 198.56 94.043C196.59 96.777 193.929 98.877 190.576 100.342C187.223 101.807 183.317 102.539 178.857 102.539C174.626 102.539 170.825 101.847 167.456 100.464C164.087 99.08 161.377 97.005 159.326 94.238C157.275 91.471 156.055 88.46 155.664 85.205C155.273 81.95 155.078 76.253 155.078 68.115L155.078 54.59C155.078 46.647 155.265 41.024 155.64 37.72C156.014 34.416 157.186 31.396 159.155 28.662C161.125 25.928 163.786 23.828 167.139 22.363C170.492 20.898 174.398 20.166 178.857 20.166C183.089 20.166 186.89 20.858 190.259 22.241C193.628 23.625 196.338 25.7 198.389 28.467C200.44 31.234 201.66 34.245 202.051 37.5C202.441 40.755 202.637 46.452 202.637 54.59ZM182.08 42.139C182.08 38.46 181.877 36.108 181.47 35.083C181.063 34.058 180.225 33.545 178.955 33.545C177.881 33.545 177.059 33.96 176.489 34.79C175.92 35.62 175.635 38.07 175.635 42.139L175.635 79.053C175.635 83.643 175.822 86.475 176.196 87.549C176.571 88.623 177.441 89.16 178.809 89.16C180.208 89.16 181.104 88.542 181.494 87.305C181.885 86.068 182.08 83.122 182.08 78.467ZM273.731 21.826L273.731 100.879L255.762 100.879L255.737 47.51L248.584 100.879L235.84 100.879L228.296 48.73L228.272 100.879L210.303 100.879L210.303 21.826L236.902 21.826C237.691 26.579 238.504 32.181 239.342 38.632L242.261 58.74L246.985 21.826ZM317.517 21.826L329.273 100.879L308.264 100.879L307.162 86.67L299.808 86.67L298.572 100.879L277.319 100.879L287.805 21.826ZM306.622 72.656C305.582 63.702 304.539 52.635 303.491 39.453C301.398 54.59 300.083 65.658 299.547 72.656ZM368.652 21.826L368.652 37.646L356.445 37.646L356.445 100.879L335.889 100.879L335.889 37.646L323.731 37.646L323.731 21.826ZM373.34 21.826L407.617 21.826L407.617 37.646L393.897 37.646L393.897 52.637L406.738 52.637L406.738 67.676L393.897 67.676L393.897 85.059L408.984 85.059L408.984 100.879L373.34 100.879ZM427.441 84.766L427.441 100.879L412.549 100.879L412.549 84.766Z"/></g>
+<g transform="translate(48 253) scale(1.226592124755213) translate(-4.1015625 -21.826172)"><path fill="#F34B2C" fill-rule="evenodd" d="M4.102 21.826L24.609 21.826C31.087 21.826 35.994 22.33 39.331 23.339C42.668 24.347 45.361 26.388 47.412 29.462C49.463 32.537 50.488 37.489 50.488 44.321C50.488 48.94 49.764 52.161 48.315 53.982C46.867 55.804 44.01 57.203 39.746 58.179C44.499 59.253 47.721 61.037 49.414 63.528C51.107 66.02 51.953 69.839 51.953 74.986L51.953 82.314C51.953 87.655 51.343 91.613 50.122 94.186C48.901 96.759 46.956 98.518 44.287 99.462C41.618 100.407 36.149 100.879 27.881 100.879L4.102 100.879ZM24.658 35.352L24.658 52.93C25.537 52.897 26.221 52.881 26.709 52.881C28.727 52.881 30.013 52.384 30.566 51.392C31.12 50.399 31.396 47.559 31.396 42.871C31.396 40.397 31.169 38.664 30.713 37.671C30.257 36.678 29.663 36.051 28.931 35.791C28.198 35.531 26.774 35.384 24.658 35.352ZM24.658 65.234L24.658 87.354C27.555 87.256 29.403 86.8 30.2 85.986C30.998 85.173 31.396 83.171 31.396 79.98L31.396 72.607C31.396 69.222 31.038 67.171 30.322 66.455C29.606 65.739 27.718 65.332 24.658 65.234ZM106.055 21.826L106.055 74.658C106.055 80.648 105.859 84.855 105.469 87.28C105.078 89.705 103.923 92.196 102.002 94.751C100.081 97.306 97.55 99.243 94.409 100.562C91.268 101.88 87.565 102.539 83.301 102.539C78.581 102.539 74.414 101.758 70.801 100.195C67.188 98.633 64.486 96.598 62.695 94.092C60.905 91.585 59.847 88.94 59.521 86.157C59.196 83.374 59.033 77.523 59.033 68.604L59.033 21.826L79.59 21.826L79.59 81.104C79.59 84.554 79.777 86.759 80.151 87.72C80.526 88.68 81.283 89.16 82.422 89.16C83.724 89.16 84.562 88.631 84.937 87.573C85.311 86.515 85.498 84.017 85.498 80.078L85.498 21.826ZM134.57 21.826L134.57 100.879L114.014 100.879L114.014 21.826ZM163.379 21.826L163.379 85.059L175.879 85.059L175.879 100.879L142.822 100.879L142.822 21.826ZM180.859 21.826L196.24 21.826C206.169 21.826 212.883 22.282 216.382 23.193C219.881 24.105 222.542 25.602 224.365 27.686C226.188 29.769 227.328 32.088 227.783 34.644C228.239 37.199 228.467 42.22 228.467 49.707L228.467 77.393C228.467 84.489 228.133 89.233 227.466 91.626C226.799 94.019 225.635 95.89 223.975 97.241C222.315 98.592 220.264 99.536 217.822 100.073C215.381 100.61 211.703 100.879 206.787 100.879L180.859 100.879ZM201.416 35.352L201.416 87.354C204.378 87.354 206.201 86.759 206.885 85.571C207.568 84.383 207.91 81.152 207.91 75.879L207.91 45.166C207.91 41.585 207.796 39.29 207.568 38.281C207.341 37.272 206.82 36.532 206.006 36.06C205.192 35.588 203.662 35.352 201.416 35.352ZM248.682 84.766L248.682 100.879L233.789 100.879L233.789 84.766Z"/></g>
+<g transform="translate(48 383) scale(1.1918079857995902) translate(-4.1015625 -21.826172)"><path fill="#191918" fill-rule="evenodd" d="M4.102 21.826L18.652 21.826C28.353 21.826 34.92 22.201 38.354 22.949C41.789 23.698 44.588 25.61 46.753 28.687C48.918 31.763 50 36.67 50 43.408C50 49.561 49.235 53.695 47.705 55.811C46.175 57.926 43.164 59.196 38.672 59.619C42.741 60.628 45.475 61.979 46.875 63.672C48.275 65.365 49.146 66.919 49.487 68.335C49.829 69.751 50 73.649 50 80.029L50 100.879L30.908 100.879L30.908 74.609C30.908 70.378 30.575 67.757 29.907 66.748C29.24 65.739 27.49 65.234 24.658 65.234L24.658 100.879L4.102 100.879ZM24.658 35.352L24.658 52.93C26.969 52.93 28.589 52.612 29.517 51.978C30.444 51.343 30.908 49.284 30.908 45.801L30.908 41.455C30.908 38.949 30.461 37.305 29.565 36.523C28.67 35.742 27.035 35.352 24.658 35.352ZM57.959 21.826L92.236 21.826L92.236 37.646L78.516 37.646L78.516 52.637L91.357 52.637L91.357 67.676L78.516 67.676L78.516 85.059L93.604 85.059L93.604 100.879L57.959 100.879ZM99.512 21.826L120.215 21.826C125.814 21.826 130.119 22.266 133.13 23.145C136.141 24.023 138.403 25.293 139.917 26.953C141.431 28.613 142.456 30.623 142.993 32.983C143.53 35.343 143.799 38.997 143.799 43.945L143.799 50.83C143.799 55.876 143.278 59.554 142.236 61.865C141.195 64.176 139.282 65.951 136.499 67.188C133.716 68.424 130.078 69.043 125.586 69.043L120.068 69.043L120.068 100.879L99.512 100.879ZM120.068 35.352L120.068 55.469C120.654 55.501 121.159 55.518 121.582 55.518C123.47 55.518 124.78 55.054 125.513 54.126C126.245 53.198 126.611 51.27 126.611 48.34L126.611 41.846C126.611 39.144 126.188 37.386 125.342 36.572C124.495 35.758 122.738 35.352 120.068 35.352ZM149.707 21.826L183.984 21.826L183.984 37.646L170.264 37.646L170.264 52.637L183.106 52.637L183.106 67.676L170.264 67.676L170.264 85.059L185.352 85.059L185.352 100.879L149.707 100.879ZM226.794 21.826L238.55 100.879L217.542 100.879L216.439 86.67L209.085 86.67L207.849 100.879L186.597 100.879L197.083 21.826ZM215.9 72.656C214.86 63.702 213.816 52.635 212.769 39.453C210.675 54.59 209.36 65.658 208.824 72.656ZM277.93 21.826L277.93 37.646L265.723 37.646L265.723 100.879L245.166 100.879L245.166 37.646L233.008 37.646L233.008 21.826ZM286.865 84.766L286.865 100.879L271.973 100.879L271.973 84.766Z"/></g>
+<text x="48" y="525" fill="#191918" font-size="24" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700">자동화와 데스크톱을 중심으로.</text>
+<polygon points="850.00,267.00 881.18,285.00 881.18,321.00 850.00,339.00 818.82,321.00 818.82,285.00" fill="none" stroke="#191918" stroke-opacity=".16" stroke-width="1"/>
+<polygon points="850.00,231.00 912.35,267.00 912.35,339.00 850.00,375.00 787.65,339.00 787.65,267.00" fill="none" stroke="#191918" stroke-opacity=".16" stroke-width="1"/>
+<polygon points="850.00,195.00 943.53,249.00 943.53,357.00 850.00,411.00 756.47,357.00 756.47,249.00" fill="none" stroke="#191918" stroke-opacity=".16" stroke-width="1"/>
+<polygon points="850.00,159.00 974.71,231.00 974.71,375.00 850.00,447.00 725.29,375.00 725.29,231.00" fill="none" stroke="#191918" stroke-opacity=".16" stroke-width="1"/>
+<polygon points="850.00,123.00 1005.88,213.00 1005.88,393.00 850.00,483.00 694.12,393.00 694.12,213.00" fill="none" stroke="#191918" stroke-opacity=".45" stroke-width="1.5"/>
+<path d="M850 303L850 123" stroke="#191918" stroke-width="1" opacity=".2"/>
+<path d="M850 303L1005.884572681199 213" stroke="#191918" stroke-width="1" opacity=".2"/>
+<path d="M850 303L1005.884572681199 393" stroke="#191918" stroke-width="1" opacity=".2"/>
+<path d="M850 303L850 483" stroke="#191918" stroke-width="1" opacity=".2"/>
+<path d="M850 303L694.115427318801 393" stroke="#191918" stroke-width="1" opacity=".2"/>
+<path d="M850 303L694.115427318801 213" stroke="#191918" stroke-width="1" opacity=".2"/>
+<polygon points="850.00,133.80 984.06,225.60 971.59,373.20 850.00,418.20 768.94,349.80 784.53,265.20" fill="#F34B2C" fill-opacity=".24" stroke="#F34B2C" stroke-width="4"/>
+<circle cx="850" cy="133.8" r="7" fill="#191918"/>
+<circle cx="984.0607325058311" cy="225.60000000000002" r="5" fill="#F34B2C"/>
+<circle cx="971.5899666913352" cy="373.2" r="5" fill="#F34B2C"/>
+<circle cx="850" cy="418.2" r="5" fill="#F34B2C"/>
+<circle cx="768.9400222057766" cy="349.8" r="5" fill="#F34B2C"/>
+<circle cx="784.5284794738965" cy="265.2" r="5" fill="#F34B2C"/>
+<text x="850" y="107" fill="#F34B2C" font-size="21" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" text-anchor="middle">AUTOMATION</text>
+<text x="1026" y="217" fill="#191918" font-size="21" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700">DESKTOP</text>
+<text x="1026" y="397" fill="#191918" font-size="21" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700">WEB</text>
+<text x="850" y="522" fill="#191918" font-size="21" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" text-anchor="middle">MOBILE</text>
+<text x="672" y="397" fill="#191918" font-size="21" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" text-anchor="end">AI / RAG</text>
+<text x="672" y="217" fill="#191918" font-size="21" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" font-weight="700" text-anchor="end">BACKEND</text>
+<rect x="0" y="564" width="1200" height="58" fill="#191918"/>
+<text x="48" y="601" fill="#F2F0E9" font-size="20" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >프로젝트 경험</text>
+<text x="265" y="601" fill="#F34B2C" font-size="24" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >→</text>
+<text x="315" y="601" fill="#F2F0E9" font-size="20" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >분야별 무게중심</text>
+<text x="571" y="601" fill="#F34B2C" font-size="24" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >→</text>
+<text x="620" y="601" fill="#F2F0E9" font-size="20" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" >상대적 경험 분포</text>
+<text x="1152" y="599" fill="#ABA99F" font-size="16" font-family="Arial, Helvetica, Malgun Gothic, sans-serif" text-anchor="end">정성적 요약 · 숙련도 점수 아님</text></svg>

@@ -1,71 +1,25 @@
-<p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="woochichichi — Ideas into useful tools. AI, document tools, and Android." />
-</p>
+<p><img src="./assets/banner.svg" width="100%" alt="woochi. — LESS BUSY. MORE BUILT. 귀찮은 일은 줄이고, 쓸모 있는 건 만들고." /></p>
 
-## 안녕하세요, 우치입니다 👋
+반가워요, **우치**입니다. 반복되는 일을 줄이는 도구와 직접 써보고 싶은 앱을 만듭니다.
 
-**일상과 업무의 불편함을, 직접 만든 도구로 해결합니다.**
+[Selected work](#selected-work) &nbsp; / &nbsp; [Field notes](#field-notes) &nbsp; / &nbsp; [All repositories ↗](https://github.com/woochichichi?tab=repositories)
 
-AI 챗봇부터 문서 작업 도구, Android 앱까지.<br />
-필요한 것을 만들고, 써보며 개선하는 프로젝트를 이곳에 모읍니다.
+## Selected work
 
-<p>
-  <a href="#-대표-프로젝트">대표 프로젝트</a> &nbsp;·&nbsp;
-  <a href="#-사용하는-기술">사용하는 기술</a> &nbsp;·&nbsp;
-  <a href="https://github.com/woochichichi?tab=repositories">모든 저장소 ↗</a>
-</p>
+<a href="https://github.com/woochichichi/2026_HICT_ChatBot"><img src="./assets/project-ai.svg" width="100%" alt="01. AI 상담 코치 PoC — 문서를 찾아 답하고, 대화하며 연습하는 AI 코치. 프로젝트 열기" /></a>
 
-### 🧩 대표 프로젝트
+<a href="https://github.com/woochichichi/viewer"><img src="./assets/project-viewer.svg" width="100%" alt="02. 로컬 문서 뷰어 — 업로드 없이. Word와 Excel을 내 컴퓨터에서. 프로젝트 열기" /></a>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01 / AI 상담 코치</h3>
-      <p>업무 문서를 검색해 답변하고, 상담 훈련과 피드백을 제공하는 AI 챗봇 PoC.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>RAG</code> <code>React</code></p>
-      <a href="https://github.com/woochichichi/2026_HICT_ChatBot"><b>프로젝트 보기 →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02 / 로컬 문서 뷰어</h3>
-      <p>파일 업로드 없이 브라우저에서 Word·Excel·텍스트 문서를 여는 오프라인 뷰어.</p>
-      <p><code>React</code> <code>Vite</code> <code>Electron</code></p>
-      <a href="https://github.com/woochichichi/viewer"><b>프로젝트 보기 →</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>03 / Excel Diff &amp; Merge</h3>
-      <p>여러 버전의 Excel 파일을 셀 단위로 비교하고, 필요한 변경 사항을 선택해 병합하는 도구.</p>
-      <p><code>C#</code> <code>WinForms</code> <code>Excel COM</code></p>
-      <a href="https://github.com/woochichichi/excel_diff"><b>프로젝트 보기 →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>04 / SMS → Telegram</h3>
-      <p>수신 문자를 발신자 필터에 따라 텔레그램 봇으로 전달하는 개인용 Android 앱.</p>
-      <p><code>Kotlin</code> <code>Android</code> <code>Telegram Bot</code></p>
-      <a href="https://github.com/woochichichi/forward_sms_to_tele"><b>프로젝트 보기 →</b></a>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/woochichichi/excel_diff"><img src="./assets/project-excel.svg" width="100%" alt="03. Excel 비교·병합 도구 — 달라진 셀을 찾고, 필요한 변경만 합칩니다. 프로젝트 열기" /></a>
 
-**또 다른 실험 · [KRX Backtester](https://github.com/woochichichi/backtest_program)**<br />
-국내 주식 일봉 데이터로 전략을 실행하고, 결과를 차트와 표로 살펴보는 Python 기반 백테스팅 웹 플랫폼.
+<a href="https://github.com/woochichichi/forward_sms_to_tele"><img src="./assets/project-sms.svg" width="100%" alt="04. SMS 텔레그램 전달 앱 — 필요한 문자를, 내가 확인하는 곳으로. 프로젝트 열기" /></a>
 
-### 🛠 사용하는 기술
+**Also building** &nbsp; [KRX Backtester ↗](https://github.com/woochichichi/backtest_program) — 국내 주식 일봉 데이터로 전략을 살펴보는 백테스팅 도구.
 
-**자동화와 데스크톱 도구에 무게를 두고, 웹·모바일·AI로 넓혀가는 경험.**
+## Field notes
 
-<p align="center">
-  <img src="./assets/skills.svg" width="100%" alt="프로젝트 경험 레이더: 자동화와 데스크톱에 가장 큰 비중을 두고, 웹·모바일·AI·백엔드로 이어지는 비대칭 육각형. 경험 분포를 정성적으로 요약한 그래프입니다." />
-</p>
+<p><img src="./assets/skills.svg" width="100%" alt="AUTOMATE. BUILD. REPEAT. 자동화와 데스크톱에 무게를 둔 비대칭 경험 레이더. 프로젝트의 구현 분야와 기능 범위를 정성적으로 요약한 상대적 분포입니다." /></p>
 
-<p align="center">
-  <img src="./assets/stack-map.svg" width="100%" alt="그래프 기준과 기술 스택 연결도. 구현 분야와 기능 범위를 정성적으로 요약해 상대적 경험 레이더로 표현합니다. AI·RAG: Python, ChromaDB, RAG. 백엔드: Python, FastAPI. 웹: JavaScript, React, Vite. 데스크톱: C#, WinForms, Electron. 모바일: Kotlin, Android. 자동화: Python, Telegram Bot." />
-</p>
+<p><img src="./assets/stack-map.svg" width="100%" alt="THE TOOLBOX. 분야별 기술 연결도: AI—Python, ChromaDB, RAG / 데스크톱—C#, WinForms, Electron / 백엔드—Python, FastAPI / 모바일—Kotlin, Android / 웹—JavaScript, React, Vite / 자동화—Python, Telegram Bot." /></p>
 
----
-
-<p align="center">
-  <sub>작은 불편함에서 시작해, 쓸모 있는 도구로.</sub><br />
-  <sub><a href="https://github.com/woochichichi?tab=repositories">Explore the projects ↗</a></sub>
-</p>
+<p align="right"><a href="https://github.com/woochichichi?tab=repositories"><b>More experiments ↗</b></a></p>
