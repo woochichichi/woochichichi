@@ -59,19 +59,9 @@ AI 챗봇부터 문서 작업 도구, Android 앱까지.<br />
   <img src="./assets/skills.svg" width="100%" alt="프로젝트 경험 레이더: 자동화와 데스크톱에 가장 큰 비중을 두고, 웹·모바일·AI·백엔드로 이어지는 비대칭 육각형. 경험 분포를 정성적으로 요약한 그래프입니다." />
 </p>
 
-<details>
-<summary>그래프 기준 · 기술 스택</summary>
-
-프로젝트의 구현 분야와 기능 범위를 바탕으로 표현한 **상대적 경험 분포**입니다.
-숙련도를 시험하거나 다른 개발자와 비교한 점수는 아닙니다.
-
-| 분야 | 프로젝트에서 사용하는 기술 |
-| :--- | :--- |
-| AI & Backend | Python · FastAPI · ChromaDB · RAG |
-| Web & Desktop | JavaScript · React · Vite · Electron · C# · WinForms |
-| Mobile | Kotlin · Android |
-
-</details>
+<p align="center">
+  <img src="./assets/stack-map.svg" width="100%" alt="그래프 기준과 기술 스택 연결도. 구현 분야와 기능 범위를 정성적으로 요약해 상대적 경험 레이더로 표현합니다. AI·RAG: Python, ChromaDB, RAG. 백엔드: Python, FastAPI. 웹: JavaScript, React, Vite. 데스크톱: C#, WinForms, Electron. 모바일: Kotlin, Android. 자동화: Python, Telegram Bot." />
+</p>
 
 ---
 
