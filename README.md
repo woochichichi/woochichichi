@@ -53,11 +53,22 @@ AI 챗봇부터 문서 작업 도구, Android 앱까지.<br />
 
 ### 🛠 사용하는 기술
 
+공개 프로젝트로 쌓아가는 여섯 가지 경험.
+
+<p align="center">
+  <img src="./assets/skills.svg" width="100%" alt="육각형 기술맵: AI·RAG, 백엔드, 웹, 모바일, 자동화, 데스크톱. 공개 프로젝트의 경험 영역을 표시합니다." />
+</p>
+
+<details>
+<summary>기술 스택 자세히 보기</summary>
+
 | 분야 | 프로젝트에서 사용하는 기술 |
 | :--- | :--- |
 | AI & Backend | Python · FastAPI · ChromaDB · RAG |
 | Web & Desktop | JavaScript · React · Vite · Electron · C# · WinForms |
 | Mobile | Kotlin · Android |
+
+</details>
 
 ---
 
